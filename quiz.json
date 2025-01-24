@@ -1,0 +1,64 @@
+{
+  "quiz": [
+    {
+      "pergunta": "Qual é a forma correta de declarar uma variável que não pode ser reatribuída em JavaScript?",
+      "alternativas": ["var", "let", "const", "variable"],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
+      "alternativas": ["push()", "append()", "addToEnd()", "insert()"],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como se chama o operador que verifica tanto o valor quanto o tipo em JavaScript?",
+      "alternativas": ["==", "===", "=", "!="],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Qual é o resultado de typeof null em JavaScript?",
+      "alternativas": ["null", "undefined", "object", "number"],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Qual função é usada para converter uma string em um número inteiro em JavaScript?",
+      "alternativas": ["Number()", "parseFloat()", "parseInt()", "toInteger()"],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Qual método é usado para remover o último elemento de um array em JavaScript?",
+      "alternativas": ["pop()", "remove()", "deleteLast()", "shift()"],
+      "resposta_correta": 0
+    },
+    {
+      "pergunta": "Como se declara uma função em JavaScript usando a sintaxe de arrow function?",
+      "alternativas": [
+        "function() {}",
+        "=> function()",
+        "() =>",
+        "function =>"
+      ],
+      "resposta_correta": 2
+    },
+    {
+      "pergunta": "Qual método é usado para executar uma função após um determinado intervalo de tempo?",
+      "alternativas": ["setInterval()", "setTimeout()", "delay()", "wait()"],
+      "resposta_correta": 1
+    },
+    {
+      "pergunta": "Qual operador é usado para acessar propriedades de um objeto de forma segura, evitando erros se a propriedade não existir?",
+      "alternativas": ["&&", "||", "??", "?."],
+      "resposta_correta": 3
+    },
+    {
+      "pergunta": "Qual é o método usado para transformar um objeto em uma string JSON?",
+      "alternativas": [
+        "JSON.toString()",
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.toText()"
+      ],
+      "resposta_correta": 1
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz JS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/9d0eb086f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Javascript Quiz</h1>
+    </header>
+    <main>
+      <div class="title">
+        <h1 id="question__number">1</h1>
+        <h1 id="question__title">Questão</h1>
+      </div>
+      <div class="options">
+        <form id="form"></form>
+        <div class="actions">
+          <button id="btn-ant" class="arrow">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button id="enviar">Confirmar Resposta</button>
+          <button id="btn-prox" class="arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="div-resultado"></div>
+      <footer>© Thiago Alexandre 2025 | Front-end developer</footer>
+    </main>
+  </body>
+</html>
